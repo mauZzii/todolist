@@ -24,7 +24,7 @@ Live Version [here](https://mauzzii.github.io/todolist/).
 
 ### Third Party Implementations (Fonts/CSS/JS/etc.)
 
-* [normalize.css](https://necolas.github.io/normalize.css/)  -- will be implemented later
+* [normalize.css](https://necolas.github.io/normalize.css/)
 * [npmjs](https://www.npmjs.com/)
 * [webpack](https://www.webpack.js.org)
 
@@ -33,5 +33,5 @@ Live Version [here](https://mauzzii.github.io/todolist/).
 ### What Was Learned
 
 * **File Structures:** Implemented common file structuring practices
-* **HTMLWebpackPlugin:** Touched more on the HTMLWebpackPlugin and the features it brings
+* **HTMLWebpackPlugin:** Touched more on the HTMLWebpackPlugin and it's many features
 * **GitHub Pages Deploy:** Created a script to automatically deploy to gh-pages branch which the live page is based off

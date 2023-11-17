@@ -3,16 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ToDoDahDoList</title>
+    <link rel="stylesheet" href="../src/assets/styles/styles.css">
+    <title>TaskList</title>
 </head>
 <body>
-    <div class="grid-container">
-        <header class="header"></header>
-        <section class="sidebar">
-            <nav class="side-nav"></nav>
-            <footer class="footer"></footer>
+    <div class="main-container">
+        <section class="menu">
+            <h4 class="menu-label">Tasks</h4>
+            <ul id="task-list" class="menu-list">
+                <li><a class="menu-item">All Tasks</a></li>
+                <li><a class="menu-item">Today</a></li>
+                <li><a class="menu-item">This Week</a></li>
+            </ul>
+            <h4 class="menu-label">Projects</h4>
+            <ul id="project-list" class="menu-list">
+                <!--This is to be generated dynamically with JS based on created projects-->
+            </ul>
         </section>
-        <main class="main"></main>
+        <main class="main">
+            <div class="app-logo-title">Task List</div>
+            <nav class="navbar">
+                <a id="delete-proj-button" class="nav-button">Delete Project</a>
+                <a id="new-task-button" class="nav-button">New Task</a>
+                <a id="new-proj-button" class="nav-button">New Project</a>
+                <a href="https://github.com/mauzzii" id="creator-link-button" class="nav-button">mauZzii</a>
+            </nav>
+            <section class="content-container">
+                <div class="table-title">
+                    <!--Should be dynamically generated based on viewed tab-->
+                </div>
+                <table class="table">
+                    <thead>
+                        <th>
+                            <abbr title="Complete"></abbr>
+                        </th>
+                        <th>Task</th>
+                        <th>Due Date</th>
+                        <th></th>
+                    </thead>
+                    <tbody id="table-body">
+                        <!--Should by dynamically generated via JS/form input-->
+                    </tbody>
+                </table>
+            </section>
+        </main>
     </div>
 </body>
 </html>

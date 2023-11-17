@@ -11,3 +11,12 @@
 body {
     height: 100vh;
 }
+
+.main-container {
+    height: 100%;
+    display: flex;
+}
+
+.menu {
+    width: 20%;
+}
